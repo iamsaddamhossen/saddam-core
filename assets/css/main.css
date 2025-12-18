@@ -1,0 +1,58 @@
+.site-header {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.site-header .wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.primary-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO SECTION */
+
+.hero {
+  padding: 100px 20px;
+}
+
+.hero .wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.hero-content {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+}
